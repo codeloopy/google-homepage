@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;;
+}
+
+.header {
+  margin-top: -7px;
+  padding: 0;
+  background-color: #f2f2f2;
+  height: 50px;
+  width: 100%;
+}
+
+.header ul {
+  float: right;
+  list-style: none;
+  margin-right: 30px;
+}
+
+.header li {
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.header a {
+  text-decoration: none;
+  color: #000;
+}
+
+#apps img {
+  width: 30px;
+  height: auto;
+}
+
+#notify img {
+  width: 30px;
+  height: auto;
+  opacity: 0.5;
+}
+
+.profile img {
+  width: 30px;
+  height: auto;
+  border-radius: 15px;
+  border: 1px solid #ffffff;
+}
