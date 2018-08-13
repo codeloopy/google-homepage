@@ -2,23 +2,32 @@ body {
   font-family: sans-serif;;
 }
 
+.clear {
+  clear: both;
+}
+
 .header {
   margin-top: -7px;
   padding: 0;
-  background-color: #f2f2f2;
+  /*background-color: #f2f2f2;*/
   height: 50px;
   width: 100%;
 }
 
-.header ul {
+ul {
   float: right;
   list-style: none;
-  margin-right: 30px;
+  margin-right: 0;
+  margin-top: auto;
 }
 
-.header li {
-  margin-top: 10px;
-  display: inline-block;
+li {
+  float: left;
+  width: 65px;
+  line-height: 80px;
+  vertical-align: middle;
+  text-align: center;
+  margin: 0;
 }
 
 .header a {
@@ -27,19 +36,69 @@ body {
 }
 
 #apps img {
-  width: 30px;
-  height: auto;
+  height: 24px;
+  opacity: .65;
 }
 
 #notify img {
-  width: 30px;
-  height: auto;
+  width: 22px;
   opacity: 0.5;
 }
 
-.profile img {
-  width: 30px;
-  height: auto;
+.profile_pic img {
+  width: 35px;
   border-radius: 15px;
   border: 1px solid #ffffff;
+}
+
+.logo a {
+  display: block;
+  width: 15%;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 100%;
+  margin: 200px auto 30px auto;
+}
+
+.logo img {
+  display: block;
+  width: auto;
+  margin: auto;
+}
+
+.search_box {
+  display: block;
+  margin: auto;
+  width: 30%;
+  height: 2.5em;
+  border: 1px solid #e2e2e2;
+  box-shadow: 0px 2px 3px #e2e2e2;
+}
+
+.voice img {
+  position: relative;
+  height: 20px;
+  float: right;
+  margin: 10px 20px 0 0;
+}
+
+.buttons {
+  display: block;
+  width: 15%;
+  /*margin: 0 auto;*/
+}
+
+.button {
+  display: inline-block;
+  width: 100px;
+  height: auto;
+  padding: 10px;
+  background-color: #f4f4f4;
+  color: #7a7a7a;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
 }
