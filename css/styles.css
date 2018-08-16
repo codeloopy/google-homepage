@@ -1,5 +1,7 @@
 body {
-  font-family: sans-serif;;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .clear {
@@ -84,14 +86,19 @@ li {
   margin: 10px 20px 0 0;
 }
 
+.search_button {
+  width: auto;
+}
+
 .buttons {
   display: block;
-  width: 15%;
-  /*margin: 0 auto;*/
+  width: 245px;
+  margin: 0 auto;
 }
 
 .button {
   display: inline-block;
+  margin: 20px auto 10px auto;
   width: 100px;
   height: auto;
   padding: 10px;
@@ -101,4 +108,46 @@ li {
   text-align: center;
   font-size: 12px;
   font-weight: bold;
+}
+
+.buttons #offered {
+  text-align: center;
+}
+
+.footer {
+  margin-top: 400px;
+  width: 100%;
+  height: 50px;
+  background-color: #f2f2f2;
+  margin-bottom: 0;
+}
+
+.left {
+  float: left;
+  display: block;
+  height: 50px;
+}
+
+.left li {
+  margin-right: 30px;
+  height: 50px;
+  width: auto;
+  line-height: 50px;
+}
+
+.right li {
+  margin-left: 30px;
+  height: 50px;
+  width: auto;
+  line-height: 50px;
+}
+
+.right li:nth-of-type(3) {
+  margin-right: 30px;
+}
+
+.right {
+  float: right;
+  display: block;
+  height: 50px;
 }
